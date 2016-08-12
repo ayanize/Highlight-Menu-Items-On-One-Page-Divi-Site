@@ -1,0 +1,13 @@
+#top-menu .active a {
+    color: #af164f!important;
+transition: all 0.5s ease;
+}
+#top-menu .active a:after {
+    content: '';
+    border-bottom: 3px solid #af164f;
+    position: relative;
+    width: 100%;
+    display: block;
+    top: 8px;
+transition: all 0.5s ease;
+}
